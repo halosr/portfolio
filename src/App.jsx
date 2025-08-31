@@ -1,16 +1,15 @@
-import './App.scss'
 import Navbar from './components/navbar/Navbar'
-import Home from './containers/home/Home'
+import Home from './components/home/Home';
 import Footer from './components/footer/Footer'
 
 function App() {
 
   return (
-    <>
+    <div className='container mx-auto'>
       <Navbar />
       <Home />
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </div>
   )
 }
 
