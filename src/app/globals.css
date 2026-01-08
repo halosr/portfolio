@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@theme {
+    /* --color-background: var(--background);
+  --color-foreground: var(--foreground); */
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+
+    --color-primary-50: #fafafa;
+    --color-primary-100: #f3f1f1;
+    --color-primary-200: #e7e4e4;
+    --color-primary-300: #d4cece;
+    --color-primary-400: #a99e9e;
+    --color-primary-500: #7c6e6e;
+    --color-primary-600: #594f4f;
+    --color-primary-700: #413a3a;
+    --color-primary-800: #262222;
+    --color-primary-900: #131111;
+    --color-primary-950: #0b0a0a;
+    --color-secondary-50: #f9fbfb;
+    --color-secondary-100: #f0f4f5;
+    --color-secondary-200: #e0e9eb;
+    --color-secondary-300: #c7d8db;
+    --color-secondary-400: #90b0b6;
+    --color-secondary-500: #5d868e;
+    --color-secondary-600: #426066;
+    --color-secondary-700: #30464a;
+    --color-secondary-800: #1c292b;
+    --color-secondary-900: #0e1416;
+    --color-secondary-950: #080c0c;
+    --color-tertiary-50: #f8fcfc;
+    --color-tertiary-100: #edf8f7;
+    --color-tertiary-200: #dbf0ef;
+    --color-tertiary-300: #bde5e3;
+    --color-tertiary-400: #7ccbc7;
+    --color-tertiary-500: #43a8a3;
+    --color-tertiary-600: #307875;
+    --color-tertiary-700: #235855;
+    --color-tertiary-800: #143332;
+    --color-tertiary-900: #0a1a19;
+    --color-tertiary-950: #060f0e;
+    --color-quaternary-50: #f7fdf8;
+    --color-quaternary-100: #ecf9ef;
+    --color-quaternary-200: #d8f3de;
+    --color-quaternary-300: #b9e9c4;
+    --color-quaternary-400: #73d38a;
+    --color-quaternary-500: #38b255;
+    --color-quaternary-600: #28803d;
+    --color-quaternary-700: #1d5d2c;
+    --color-quaternary-800: #11361a;
+    --color-quaternary-900: #091b0d;
+    --color-quaternary-950: #051007;
+    --color-quinary-50: #fbfff5;
+    --color-quinary-100: #f5fee7;
+    --color-quinary-200: #eafdce;
+    --color-quinary-300: #d9fba7;
+    --color-quinary-400: #b4f750;
+    --color-quinary-500: #8be00b;
+    --color-quinary-600: #63a108;
+    --color-quinary-700: #487506;
+    --color-quinary-800: #2a4403;
+    --color-quinary-900: #152202;
+    --color-quinary-950: #0c1301;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+body {
+    /* background: var(--background);
+    color: var(--foreground); */
+    font-family: Arial, Helvetica, sans-serif;
+}
